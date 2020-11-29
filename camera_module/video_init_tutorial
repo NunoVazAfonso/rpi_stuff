@@ -1,0 +1,8 @@
+Install Camera 
+	blue side of the ribbon to USB ports 
+
+Simple Video Output (Terminal)
+	raspivid -o vid.h264 -t 0
+
+Play Video
+	omxplayer </path_to_video/test_video_5secs.h264>
